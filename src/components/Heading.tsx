@@ -1,12 +1,10 @@
 import style from './Heading.module.css'
 
-
-
 type HeadingProps = {
     children: React.ReactNode;
 }
 
-export default function Heading({ children }: HeadingProps) {
+export function Heading({ children }: HeadingProps) {
 
 
     return (
